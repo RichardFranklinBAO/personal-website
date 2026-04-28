@@ -81,14 +81,14 @@ h1, h2, h3, h4 {
 
 .hero-banner .subtitle {
   color: #a8c4e0;
-  font-size: 1.05rem;
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 18px;
 }
 
 .hero-banner .tagline {
   color: #d0dce8;
-  font-size: 0.97rem;
+  font-size: 1.75rem;
   line-height: 1.7;
   max-width: 560px;
 }
