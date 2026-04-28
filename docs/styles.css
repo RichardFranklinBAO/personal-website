@@ -31,7 +31,7 @@ h1, h2, h3, h4 {
 
 .navbar-brand {
   font-family: 'Lora', serif;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #f0f0f0 !important;
   letter-spacing: 0.03em;
@@ -41,7 +41,7 @@ h1, h2, h3, h4 {
   color: #d0d0d0 !important;
   font-family: 'Source Sans 3', sans-serif;
   font-weight: 400;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   letter-spacing: 0.04em;
   transition: color 0.2s ease;
 }
@@ -113,16 +113,16 @@ h1, h2, h3, h4 {
 }
 
 .info-card h4 {
-  font-size: 0.78rem;
+  font-size: 2rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: #0f3460;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .info-card p {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.5rem;
   color: #444;
 }
 
@@ -154,9 +154,9 @@ h1, h2, h3, h4 {
 }
 
 .project-card h3 {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #1a1a2e;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .project-card .project-tags {
@@ -167,10 +167,10 @@ h1, h2, h3, h4 {
   display: inline-block;
   background: #eef2f8;
   color: #0f3460;
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.06em;
-  padding: 3px 10px;
+  padding: 4px 12px;
   border-radius: 20px;
   margin-right: 6px;
   margin-bottom: 4px;
@@ -179,8 +179,8 @@ h1, h2, h3, h4 {
 
 .project-card p {
   color: #555;
-  font-size: 0.95rem;
-  line-height: 1.7;
+  font-size: 1.5rem;
+  line-height: 1.75;
   margin-bottom: 16px;
 }
 
