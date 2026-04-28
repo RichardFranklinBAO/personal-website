@@ -1,0 +1,245 @@
+/* ============================================================
+   Custom CSS for Conglin (Franklin) Bao Personal Website
+   ============================================================ */
+
+/* ---------- Google Fonts ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Source+Sans+3:wght@300;400;600&display=swap');
+
+/* ---------- Global Typography ---------- */
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 300;
+  color: #2d2d2d;
+  background-color: #fafafa;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background-color: #1a1a2e !important;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  padding: 4px 0;
+}
+
+.navbar-brand {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #f0f0f0 !important;
+  letter-spacing: 0.03em;
+}
+
+.navbar-nav > li > a {
+  color: #d0d0d0 !important;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 400;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav > li > a:hover {
+  color: #ffffff !important;
+}
+
+/* ---------- Hero Banner (Home page) ---------- */
+.hero-banner {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 60%, #0f3460 100%);
+  color: #f0f0f0;
+  padding: 64px 48px 56px 48px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -60px;
+  width: 260px;
+  height: 260px;
+  background: rgba(255,255,255,0.04);
+  border-radius: 50%;
+}
+
+.hero-banner h1 {
+  color: #ffffff;
+  font-size: 2.4rem;
+  margin-bottom: 6px;
+  letter-spacing: 0.01em;
+}
+
+.hero-banner .subtitle {
+  color: #a8c4e0;
+  font-size: 1.05rem;
+  font-weight: 300;
+  margin-bottom: 18px;
+}
+
+.hero-banner .tagline {
+  color: #d0dce8;
+  font-size: 0.97rem;
+  line-height: 1.7;
+  max-width: 560px;
+}
+
+/* ---------- Info Cards (Home page) ---------- */
+.info-cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.info-card {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-left: 4px solid #0f3460;
+  border-radius: 6px;
+  padding: 22px 24px;
+  flex: 1;
+  min-width: 200px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.info-card h4 {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #0f3460;
+  margin-bottom: 6px;
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+/* ---------- Section Divider ---------- */
+.section-title {
+  font-family: 'Lora', serif;
+  font-size: 1.35rem;
+  color: #1a1a2e;
+  border-bottom: 2px solid #0f3460;
+  padding-bottom: 8px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* ---------- Project Cards ---------- */
+.project-card {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 8px;
+  padding: 28px 30px;
+  margin-bottom: 28px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin-bottom: 6px;
+}
+
+.project-card .project-tags {
+  margin-bottom: 12px;
+}
+
+.tag {
+  display: inline-block;
+  background: #eef2f8;
+  color: #0f3460;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.project-card p {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.project-link {
+  display: inline-block;
+  background: #1a1a2e;
+  color: #ffffff !important;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 18px;
+  border-radius: 4px;
+  text-decoration: none !important;
+  letter-spacing: 0.04em;
+  transition: background 0.2s ease;
+}
+
+.project-link:hover {
+  background: #0f3460 !important;
+  color: #ffffff !important;
+}
+
+/* ---------- CV Page ---------- */
+.cv-embed-container {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-top: 20px;
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  margin-top: 60px;
+  padding: 24px 0 32px 0;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+/* ---------- Mobile Responsive ---------- */
+@media (max-width: 768px) {
+  .hero-banner {
+    padding: 40px 24px;
+  }
+
+  .hero-banner h1 {
+    font-size: 1.8rem;
+  }
+
+  .info-cards {
+    flex-direction: column;
+  }
+
+  .info-card {
+    min-width: unset;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,97 @@
+---
+title: "Projects"
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+---
+
+<div class="section-title">Graduate Research Projects</div>
+
+The projects below represent graduate-level research conducted at Emory University,
+combining statistical modeling, machine learning, and real-world data to address
+problems in biomedical research and financial analysis.
+
+---
+
+<div class="project-card">
+  <h3>Deep Learning for Alzheimer's Disease Neuropathology Trajectory Prediction</h3>
+  <div class="project-tags">
+    <span class="tag">Deep Learning</span>
+    <span class="tag">LSTM</span>
+    <span class="tag">Longitudinal Data</span>
+    <span class="tag">R</span>
+    <span class="tag">Python</span>
+  </div>
+  <p>
+    Alzheimer's disease (AD) is a progressive neurodegenerative condition whose
+    underlying pathological changes — including amyloid plaque accumulation and
+    neurofibrillary tau tangles — begin years before clinical symptoms appear.
+    Early and accurate prediction of neuropathological trajectories could help
+    identify at-risk individuals and support clinical decision-making.
+  </p>
+  <p>
+    In this project, I developed and evaluated Long Short-Term Memory (LSTM) and
+    Bidirectional LSTM (BiLSTM) models to predict longitudinal neuropathology scores
+    using data from the Religious Orders Study and Memory and Aging Project (ROS/MAP),
+    a large ongoing cohort of aging adults. The models were trained on multivariate
+    time-series inputs including cognitive assessments, demographic factors, and
+    biomarker data. Model performance was evaluated using mean absolute error and
+    correlation metrics, with attention to interpretability of temporal patterns
+    learned by the network.
+  </p>
+  <p>
+    This work was conducted as part of my Research Assistantship under Professor
+    Jingjing Yang at Emory University's Department of Biostatistics and Bioinformatics.
+  </p>
+  <a href="https://github.com/RichardFranklinBAO/AD_Pathology_Trajectory_DL"
+     target="_blank" class="project-link">
+    View on GitHub
+  </a>
+</div>
+
+<div class="project-card">
+  <h3>S&P 500 Stock Data Interactive Dashboard (2013–2018)</h3>
+  <div class="project-tags">
+    <span class="tag">Data Visualization</span>
+    <span class="tag">R</span>
+    <span class="tag">Plotly</span>
+    <span class="tag">flexdashboard</span>
+    <span class="tag">Financial Data</span>
+  </div>
+  <p>
+    Understanding individual stock behavior within a broad market index requires
+    tools that go beyond summary statistics. This project produced an interactive
+    web dashboard that allows users to explore five years of daily closing price
+    data for all 505 S&P 500 constituent stocks, without requiring any programming
+    knowledge.
+  </p>
+  <p>
+    The dashboard was built using R, flexdashboard, Plotly, and the DT package.
+    It features two interactive widgets: a dynamic line chart where users can select
+    any ticker from a dropdown menu and inspect closing price trends with hover
+    tooltips showing date, price, and trading volume; and a sortable, filterable
+    performance summary table covering metrics including total return, annualized
+    volatility, maximum and minimum closing prices, and average daily trading volume
+    across the full five-year window. Color-coded conditional formatting highlights
+    high-return and high-volatility stocks at a glance.
+  </p>
+  <p>
+    The dashboard is publicly deployed on GitHub Pages and the source code is
+    fully reproducible.
+  </p>
+  <a href="https://github.com/RichardFranklinBAO/data555_sp500_dashboard"
+     target="_blank" class="project-link" style="margin-right: 10px;">
+    View on GitHub
+  </a>
+  <a href="https://richardfranklinbao.github.io/data555_sp500_dashboard/Final_Project_3a_flex.html"
+     target="_blank" class="project-link">
+    Live Dashboard
+  </a>
+</div>
+
+<div class="site-footer">
+  © 2026 Conglin (Franklin) Bao &nbsp;·&nbsp;
+  Built with R Markdown &nbsp;·&nbsp;
+  <a href="https://github.com/RichardFranklinBAO" target="_blank">GitHub</a>
+</div>

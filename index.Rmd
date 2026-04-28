@@ -1,0 +1,64 @@
+---
+title: ""
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+---
+
+<div class="hero-banner">
+  <h1>Conglin (Franklin) Bao</h1>
+  <div class="subtitle">M.S.P.H. Biostatistics · Emory University &nbsp;|&nbsp; Incoming Ph.D. Statistics · University of South Carolina</div>
+  <div class="tagline">
+    I develop machine learning and statistical methods for biomedical and financial data,
+    with a focus on predictive modeling, time-series analysis, and high-dimensional inference.
+  </div>
+</div>
+
+<div class="info-cards">
+  <div class="info-card">
+    <h4>Education</h4>
+    <p>M.S.P.H. Biostatistics, Emory University (2026)<br>B.A. Economics, University of Nottingham Ningbo China (2023)</p>
+  </div>
+  <div class="info-card">
+    <h4>Research Interests</h4>
+    <p>Statistical Machine Learning · Time-Series Analysis · High-Dimensional Inference</p>
+  </div>
+  <div class="info-card">
+    <h4>Contact</h4>
+    <p>
+      <a href="https://github.com/RichardFranklinBAO" target="_blank">GitHub</a><br>
+      <a href="https://www.linkedin.com/in/conglinbao/" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+</div>
+
+<div class="section-title">About Me</div>
+
+I am a graduating master's student in Biostatistics at Emory University and an incoming
+Ph.D. student in Statistics at the University of South Carolina (August 2026), where I
+will pursue research at the intersection of statistical machine learning, time-series
+analysis, and quantitative finance.
+
+My current research spans two domains. At Emory, I work as a Research Assistant under
+Professor Jingjing Yang, developing deep learning models (LSTM/BiLSTM) to predict
+Alzheimer's disease neuropathology trajectories using longitudinal cohort data from the
+ROS/MAP study. I also collaborate with Dr. Ramesh Manyam and Dr. Sheena Warner on a
+machine learning pipeline to predict severe maternal morbidity (SMM) using data from
+the nuMoM2b cohort, applying ensemble methods including Random Forest, XGBoost, and
+LightGBM with class imbalance correction via SMOTE.
+
+Outside of academia, I am interested in quantitative trading, options market
+microstructure, and the application of statistical methods to financial time series.
+
+<div class="section-title">News</div>
+
+- **April 2026** — Completing M.S.P.H. in Biostatistics at Emory University
+- **August 2026** — Beginning Ph.D. in Statistics at University of South Carolina
+- **2025–2026** — RA under Prof. Jingjing Yang (Emory), deep learning for AD neuropathology
+
+<div class="site-footer">
+  © 2026 Conglin (Franklin) Bao &nbsp;·&nbsp;
+  Built with R Markdown &nbsp;·&nbsp;
+  <a href="https://github.com/RichardFranklinBAO" target="_blank">GitHub</a>
+</div>

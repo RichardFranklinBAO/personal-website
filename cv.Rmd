@@ -1,0 +1,28 @@
+---
+title: "CV / Resume"
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+---
+
+<div class="section-title">Curriculum Vitae</div>
+
+You can download my CV using the button below, or view it directly in the embedded viewer.
+
+<a href="CV_ConglinBao.pdf" download class="project-link" style="margin-bottom: 24px; display: inline-block;">
+  Download CV (PDF)
+</a>
+
+<div class="cv-embed-container">
+  <iframe src="CV_ConglinBao.pdf" width="100%" height="900px" style="border:none;">
+    Your browser does not support embedded PDFs.
+    <a href="CV_ConglinBao.pdf">Download the PDF</a> instead.
+  </iframe>
+</div>
+
+<div class="site-footer">
+  © 2026 Conglin (Franklin) Bao &nbsp;·&nbsp;
+  Built with R Markdown &nbsp;·&nbsp;
+  <a href="https://github.com/RichardFranklinBAO" target="_blank">GitHub</a>
+</div>

@@ -1,0 +1,21 @@
+name: "Conglin (Franklin) Bao"
+output_dir: "docs"
+navbar:
+  title: "Conglin Bao"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "CV"
+      href: cv.html
+    - text: "Projects"
+      href: projects.html
+  right:
+    - icon: fa-github
+      href: https://github.com/RichardFranklinBAO
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/conglinbao/
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+    highlight: tango
